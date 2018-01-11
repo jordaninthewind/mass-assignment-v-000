@@ -1,7 +1,8 @@
 class Person
 attr_accessor
 
-def initialize( )
+  def initialize( )
 
-end
+  end
+  
 end
