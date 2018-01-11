@@ -6,8 +6,7 @@ attr_accessor :name, :birthday, :hair_color, :eye_color, :height, :weight, :hand
   def initialize(hash)
     hash.each do |attribute, value|
       self.send(("#{attribute}="), value)
-      binding.pry
+      # binding.pry
     end
   end
-
 end
